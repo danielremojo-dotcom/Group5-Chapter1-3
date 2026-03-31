@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soupricee:DDD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="intro" id="introText">
+    Hello!! <br><br>
+    
+    I have a little souprice for you 😁😁<br><br>
+    
+    It's just something I made to pass the time...<br><br>
+    
+    I hope this doesn't annoy you or anything 🤞🏻🥲<br><br>
+    
+    If you're ready just click the button below :DD
+    
+  </div>
+<button id="readBtn" class="btn" onclick="showLetter()">Click Me!</button>
+  <div class="book" id="book">
+  </div>
+
+  <div class="controls" id="controls" style="display:none;">
+    <button onclick="prevPage()">◀</button>
+    <button onclick="nextPage()">▶</button>
+  </div>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+<audio id="pageFlip" src="flip.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
